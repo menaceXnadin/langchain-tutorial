@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an expert in AI and Machine Learning. \nYour task is to provide a comprehensive summary of the research paper titled \"{paper}\". \n\nThe summary should follow these instructions:\n1. Style: \"{style}\" \u2014 make sure the tone and detail match this style.\n2. Length: \"{length}\" \u2014 adhere to the length guidelines.\n3. Include key insights, main contributions, important methods, and any notable results.\n4. Make it clear, coherent, and easy to understand for the chosen style.\n5. Only summarize information that is explicitly available in the paper. \n   If certain details are missing or unclear, do not make guesses or add information.\n\nAvoid adding personal opinions; focus only on the content of the paper.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
